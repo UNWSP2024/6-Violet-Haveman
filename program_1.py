@@ -11,11 +11,11 @@ def randDice():
     roll_1 = random.randint(1, 6)
     roll_2 = random.randint(1, 6)
     # Sum 2 numbers
-    def randomDice(n1, n2):
-        sum = n1 + n2
-    randomDice(roll_1, roll_2)
+    print ("First Dice =", roll_1)
+    print ("Second Dice =", roll_2)
+    tot = roll_1 + roll_2
     # return sum to calling function
-    print ("Sum =", sum)
+    print ("Sum of Both Dice =", tot)
     return sum
 randDice()
 #########
